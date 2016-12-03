@@ -14,7 +14,9 @@
 - (NSString *)descriptionWithLocale:(id)locale{
     return self.debugDescription;
 }
-
+- (NSString *)debugDescription{
+    return [super debugDescription];
+}
 - (NSString *)xy_debugDescription{
     return self.xy_debugDescription.unicodeString;
 }
