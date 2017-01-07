@@ -7,6 +7,7 @@
 
 #import "NSArray+Log.h"
 #import "NSString+unicode.h"
+#import <objc/runtime.h>
 
 @implementation NSArray (Log)
 
